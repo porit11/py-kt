@@ -7,11 +7,6 @@ poka_count = 0
 while True:
     user_input = input("Я: ").strip()
     
-  
-    if user_input.lower() == "кто самый лучший преподаватель?":
-        print("Конечно же Нариман Ибрагимович")
-        poka_count = 0
-        continue
 
 
     if user_input.isupper():                   
@@ -29,4 +24,5 @@ while True:
             print(f"НЕТ, НИ РАЗУ С {year} ГОДА!")
     else:                                        
         poka_count = 0
+
         print("АСЬ?! ГОВОРИ ГРОМЧЕ, ВНУЧЕК!")
